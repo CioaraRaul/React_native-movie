@@ -26,7 +26,7 @@ export default function SearchBar({
       <TextInput
         onPress={onPress}
         placeholder={placeholder}
-        value=""
+        value={value}
         onChangeText={onChangeText}
         placeholderTextColor={"#a8b5db"}
         className="flex-1 ml-2 text-white"
